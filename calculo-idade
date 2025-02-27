@@ -1,0 +1,18 @@
+import os
+
+os.system("cls")
+
+print("-----CALCULO DE IDADE-----")
+
+ano = int(input("Digite o ano de nascimento: "))
+ano_atual = int(input("Digite o ano atual: "))
+
+idade = ano_atual - ano
+
+os.system("cls")
+
+print("-----CALCULO DE IDADE-----")
+print("Sua idade atual é: ", idade, "anos")
+
+
+

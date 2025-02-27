@@ -1,0 +1,13 @@
+import os
+
+os.system("cls")
+
+print("-----CONVERSOR DE TEMPERATURA-----")
+
+temperatura = float(input("Digite a temperatura em Celsius: "))
+farenheit = (temperatura * 9 + 160) / 5
+
+os.system("cls")
+
+print("-----CONVERSOR DE TEMPERATURA-----")
+print("A temperatura em Fahrenheit eh: ", farenheit)
